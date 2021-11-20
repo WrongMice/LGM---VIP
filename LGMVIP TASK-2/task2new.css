@@ -1,0 +1,83 @@
+body {
+    display: block;
+    font-family: 'Estonia', cursive;
+    background-image: url(images/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    position: relative;
+    height: 600px;
+    left: 0px;
+}
+
+.header {
+    height: 140px;
+    width: 100%;
+    background-image: url(images/photo1.jpg);
+    background-size: 150px;
+    background-repeat: no-repeat;
+    border-bottom: 2px solid #538d7a;
+    padding-top: 50px;
+    font-size: 100px;
+    color: rgb(238, 58, 58);
+    font-family: 'Wallpoet','Krona One','Alfa Slab One';
+}
+
+.btn {
+    position: absolute;
+    top: 45px;
+    right: 20px;
+    color:rgb(199, 12, 12);
+}
+
+button {
+    height: 35px;
+    width: 100px;
+    background:chartreuse;
+    border-radius: 10px;
+}
+
+#data {
+    width: 99%;
+    height: 450px;
+    text-align: right;
+    justify-content: center;
+    display: flex;
+}
+
+.table {
+    width: 700px;
+    font-size: 20px;
+    font-family: '-apple-system', 'BlinkMacSystemFont';
+}
+
+table {
+    color: rgb(255, 0, 0);
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font: 700;
+}
+
+table tr :hover {
+    background-color: rgb(206, 187, 187);
+}
+
+img {
+    clip-path: circle();
+}
+
+.welcome {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(3, 3, 3);
+    padding-top: 120px;
+    margin-top: 20px;
+    font-weight:  500px;
+    align-items: center;
+    
+
+}
+marquee{
+    font-size: 100px;
+}
